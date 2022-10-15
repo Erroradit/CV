@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heath club</title>
+</head>
+<style>
+    #rst{
+        position: absolute;
+        top: 396px;
+        left: 707px;
+        margin: 0px 10px;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 5px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    body {
+        color: blanchedalmond;
+        width: 100%;
+        height: 800px;
+        background-image: url('bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        margin: 5px;
+
+    }
+
+    .mid {
+        border: 1px solid thin;
+        display: block;
+        width: 36%;
+        margin: 10px auto;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 25px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .navbar li:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+    .left img {
+
+        width: 120px;
+        filter: invert(100%);
+        margin-top: -10px;
+        position: absolute;
+        top: -20px;
+    }
+
+    .left div {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        line-height: 0px;
+        font-size: 22px;
+        text-align: center;
+        margin: px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .btn {
+        position: absolute;
+        top: 396px;
+        left: 530px;
+        margin: 0px 10px;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 5px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .btn:hover {
+        background-color: lawngreen;
+    }
+
+    .container {
+        background-color: rgb(115, 115, 121);
+        opacity: 50%;
+        display: block;
+        margin-top: 100px;
+        border: 1px solid silver
+        width : 600px;
+        text-align : center;
+    }
+    #btn{
+     
+        display:block;
+        
+    }
+    input{
+        display: block;
+        width: 250px;
+        margin: 10px auto;
+        font-size: medium;
+        padding: 6px ;
+        border:1px solid rgb(166, 137, 224);
+        border-radius: 20px;
+    }
+    h1{
+        text-align:center;
+        color: rgb(255, 81, 0);
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="logo.jpg" alt="dumble">
+            <div>Heath club</div>
+        </div>
+        <div class="mid">
+            <nav>
+                <ul class="navbar">
+                    <li> <a href="#"></a>Home</li>
+                    <li> <a href="#"></a>About</li>
+                    <li> <a href="#"></a>Contact Us</li>
+                    <li> <a href="#"></a>Help</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Log in</button>
+            <button class="btn">Sign in</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join India's best fitness club </h1>
+        <form action="noaction.php"></form>
+        <div class="form"></div>
+        <input type="text" name="NAME" placeholder="Enter your Name ">
+        <div class="form"></div>
+        <input type="text" name="NAME" placeholder="Age ">
+        <div class="form"></div>
+        <input type="text" name="NAME" placeholder="Mobile No. ">
+        <div class="form"></div>
+        <input type="text" name="NAME" placeholder="E-mail ">
+       <div> <button class="btn" id="btn">Submit </button>
+    <button id="rst" type="reset">Reset</button>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
